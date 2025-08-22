@@ -28,19 +28,18 @@ console.log("Vamo que vamo!");
 
 
 
-// // exercio2
-// var senha1 = prompt("Digite a senha:  dica( sua senha é 12345678)");
-// var senhaserta = 2444666668888888;
-//  for( var i = 0; senha1 != senhaserta; ) {
-//   if (senha1 == senhaserta) {
-//         alert("Senha correta!");
-//         break;
-//      } 
-//      else {
-//          alert("Senha incorreta, tente novamente, fracassado!");
-//          senha1 = prompt("Digite a senha: ");
-//      }
-// }
+ exercio2
+ var senha1 = prompt("Digite a senha:  dica( sua senha é 12345678)");
+ var senhaserta = 2444666668888888;
+  for( var i = 0; senha1 != senhaserta; ) {
+   if (senha1 == senhaserta) {
+           alert("Senha correta!");
+         } 
+      else {
+          alert("Senha incorreta, tente novamente, fracassado!");
+          senha1 = prompt("Digite a senha: ");
+      }
+}
 
 
 //Funções
