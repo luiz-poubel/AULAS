@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito Sans', sans-serif;
+}
+/*--------------------------- HEADER ----------------------------*/
+header{
+	background-color:#FEF9E7;
+	width: 100%;
+    min-height: 40px;
+}
+header, section, footer{
+	padding: 30px 0;
+}
+.container{
+	width: 1280px;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+}
+/*--------------------------- MENU ----------------------------*/
+#menu-principal{
+	float: right;
+	margin-top: 10px;
+}
+#menu-principal ul li{
+	display: inline;
+	margin-right: 20px;
+}
+#menu-principal ul li a{
+	color: #554023 ;
+	font-weight: bold;
+	text-decoration: none;
+	padding:5px 10px;/* usado para dar distância entre a borda e o texto e tamanho */
+}
+#menu-principal ul li a:hover {
+	transition: all
+;
+	border-bottom: 1px #554023 solid;
+/*	transition: all 0.3s ease ;*/
+}
+/*--------------------------- TEXTO ----------------------------*/
+h1{
+ text-align: center;
+ color:#554023 ;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+/*--------------------------- BANNER ----------------------------*/
+#banner{
+	width: 100%;
+	height: 500px;
+	background-image:url("imagens/17430177736538bff14fc10e (1)/imagens-aua4/img-banner.jpg");
+	background-color:  #ccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+#banner h1{
+	text-align: left;
+	width: 250px;
+	margin-top: 150px;
+}
+
+
+/*--------------------------- SAIBA MAIS ----------------------------*/
+#saiba-mais{
+	background-color: #E8A200;
+	color: #2E210F;
+	min-height: 100px ;
+	padding: 100px 0;
+}
+#saiba-mais p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 700px;
+	margin: auto;
+}
+#saiba-mais a{
+	font-size: 18px;
+	font-weight: bold;
+	color: #2E210F ;
+	text-decoration: none;
+	text-align: center;
+	padding:10px 30px;
+	border: solid 2px #2E210F ;
+	border-radius: 30px;
+	margin: 30px auto 0 auto;
+	width: 90px;
+	display: block;
+}
+#saiba-mais a:hover{
+	color: #E8A200 ;
+	background-color: #2E210F;
+	transition: all linear 0.3s;
+}
+
+/*--------------------------- DEPOIMENTOS ----------------------------*/
+#depoimento{
+ color: black;
+}
+.box-depoimento{
+	width: 600px;
+	height: 155px;
+	float: left;
+	margin:20px;
+	padding: 20px 0;
+/*	background-color: #ccc;*/
+	box-shadow: 6px 7px 6px -5px #ccc;
+	-webkit-box-shadow: 6px 7px 6px -5px #ccc;
+	-moz-box-shadow: 6px 7px 6px -5px #ccc;
+}
+.box-depoimento p, .box-depoimento img{
+	float: left;
+}
+.box-depoimento p{
+	width: 370px;
+	margin-right: 20px;
+/*	vertical-align: bottom;*/
+
+}
+.box-depoimento p span{
+	font-weight: bold;
+}
+
+/*--------------------------- DICAS ----------------------------*/
+#dicas{
+	clear: both;
+}
+#box-dicas-imagem{
+	float: left;
+	width: 630px;
+}
+#box-dicas-texto{
+	float: left;
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+#dicas h3{
+	color:#2E210F ;
+	margin-bottom: 30px;
+
+}
+#dicas ul{
+	list-style-position: inside;
+}
+#dicas li{
+	color:#2E210F ;
+	line-height: 2em;
+	
+}
+/*--------------------------- NEWSLETTER ----------------------------*/
+#newsletter{
+	clear: both;
+	height: 200px;
+	background-color: #2E210F;
+
+}
+#newsletter h1{
+	color: #fff;
+}
+#newsletter form{
+	width: 720px;
+	background-color: #ccc;
+	margin: auto;
+}
+#campo{
+	width: 500px;
+	padding: 12px;
+	border: solid 1px #fff  ;
+	margin: auto;
+	float: left;
+}
+#campo:focus{
+	outline: none;
+	border: solid 1px #E8A200  ;
+}
+#botao{
+	float: left;
+	padding:11px 30px 10px 30px;
+	border: solid 2px #E8A200;
+	background-color: #E8A200;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;	
+}
+#botao:hover{
+	border: solid 2px #E8A200;
+	background-color: #fff;
+	color: #E8A200;
+	transition: linear 0.5s;
+}
+
+
+/*--------------------------- FOOTER ----------------------------*/
+footer{
+	background-color:#E8A200;
+	width: 100%;
+	min-height: 40px;
+	clear: both;
+}
+footer p{
+	float: left;
+	color: #2E210F;
+}
+#midias-sociais{
+	float: right;
+}
+#midias-sociais img:hover{
+	transform: rotate(15deg);/*  */
+	transition: all 0.3s;
+}
+
+
+
+
+
+
+
+/*************************PÁGINA PRODUTOS****************************/
+/*------------------SERVIÇOS---------------------*/
+.box-servico{
+	width: 600px;
+	margin: 20px;
+	float: left;
+/*	background-color: #ccc;*/
+}
+.item-servico{
+	width: 250px ;
+	float: left;
+	margin: 20px;
+	color: #2E210F;
+}
+.item-servico p{
+	font-size: 14px;
+	margin-top: 10px;
+	}
+
+/*------------------PRODUTOS---------------------*/
+#produtos{
+	clear: both;
+}
+.item-produto{
+	width: 295px;
+	min-height: 350px;
+	margin: 10px;
+	float: left;
+	border: 2px solid #554023 ;
+	background-color: #554023;
+	color: #fff;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.item-produto img{
+	width: 100%;
+}
+.item-produto h3, .item-produto p{
+	margin: 10px;
+}
+.item-produto h3{
+	color:#E8A200 ;
+}
+.item-produto p{
+	font-size: 14px;
+}
+.preco{
+	font-weight: bold;
+}
+
+
+/*************************PÁGINA CONTATOS****************************/
+#contato p{
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+#formulario{
+	width: 550px;
+	margin: auto;
+	padding: 30px;
+}
+#formulario label, input{
+	display: block;
+	color: #2E210F ;
+}
+#formulario label{
+	margin-top: 20px;
+	font-weight: bold;
+}
+#formulario input, #formulario textarea{
+	width: 90%;
+}
+#formulario input, #formulario textarea{
+	padding: 5px;
+}
+
+#formulario #enviar{
+	width: 150px;
+	padding: 6px 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2E210F ;
+	border: solid 2px #2E210F ;
+	border-radius: 30px;
+	background-color: #E8A200;
+	cursor: pointer;
+	float: right;
+	margin-top:20px ;
+	margin-right: 40px;
+
+}
+#formulario #enviar:hover{
+	color: #E8A200 ;
+	background-color: #2E210F;
+	transition: all linear 0.3s;
+	margin-top: 50px;
+}
+	
+
+
+
+
+
+
+/*************************SOBRE****************************/
+#sobre{
+		padding: 0;
+}
+#sobre .texto{
+	width: 500px;
+	height: 200px ;
+	float: left;
+	margin-right: 20px;
+}
+#sobre p{
+	margin-top: 10px;
+}
+#video{
+	float: left;
+}
+#video-bg{
+
+	clear: both;
+}
+.marrom{
+	color:#554023 ;
+}
+.amarelo{
+	color:  #E8A200 ;
+}
