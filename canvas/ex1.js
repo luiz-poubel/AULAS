@@ -29,9 +29,7 @@ var pessoas = {
   nome: "renan",
   idade: "28",
     apresentar: function(){
-        console.log("Olá, meu nome é", pessoas.nome, "e tenho", pessoas.idade, "anos");
-        
+        console.log("Olá, meu nome é", pessoas.nome, "e tenho", pessoas.idade, "anos");       
     }
 }
 pessoas.apresentar()
-
